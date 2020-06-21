@@ -14,7 +14,7 @@ class Solution:
             i = k // li[n - 1]
             if k % li[n-1] == 0:
                 i-=1
-            n1 -= 1
+            n -= 1
             k = k - (li.pop() * i)
             var = digits.pop(i)
             s += str(var)
